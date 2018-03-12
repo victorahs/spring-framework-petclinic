@@ -472,14 +472,15 @@
                     <scope>runtime</scope>
                 </dependency>
             </dependencies>
-            <distributionManagement>
+
+        </profile>
+   </profiles>
+   <distributionManagement>
 <snapshotRepository>
 <id>nexus-snapshots</id>
 <url>http://localhost:8081/repository/maven-snapshots/</url>
 </snapshotRepository>
 </distributionManagement>
-        </profile>
-   </profiles>
 
     <url>demopetclinic</url>
 </project>
